@@ -18,9 +18,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .section {
@@ -36,7 +33,10 @@ body {
       grid-template-columns: 55% 45%;
   -ms-grid-rows: 20vh 20vh 15vh 20vh;
       grid-template-rows: 20vh 20vh 15vh 20vh;
-      grid-template-areas: "img suscribirse" "img p1" "img p2" "img none";
+      grid-template-areas: "img suscribirse"
+ "img p1"
+ "img p2"
+ "img none";
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -254,9 +254,6 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 section {
@@ -334,9 +331,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+ 
 }
 
 @keyframes movimiento {
@@ -397,7 +392,8 @@ h3 {
       grid-template-columns: 30% 30% 30%;
   -ms-grid-rows: 50% 50%;
       grid-template-rows: 50% 50%;
-      grid-template-areas: "blanca negra azul" "roja verde none";
+      grid-template-areas: "blanca negra azul"
+ "roja verde none";
 }
 
 .blanca {
@@ -477,9 +473,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+ 
 }
 
 @keyframes movimiento {
@@ -540,7 +534,8 @@ h3 {
       grid-template-columns: 30% 30% 30%;
   -ms-grid-rows: 50% 50%;
       grid-template-rows: 50% 50%;
-      grid-template-areas: "blanca negra azul" "roja verde none";
+      grid-template-areas: "blanca negra azul"
+ "roja verde none";
 }
 
 .blanca {
@@ -629,9 +624,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  
 }
 
 h1 {
@@ -655,23 +648,7 @@ h1 {
   font-size: 70px;
 }
 
-ul {
-  background-image: -webkit-gradient(linear, right top, left top, from(#f37a8e), to(#fdfdf6));
-  background-image: linear-gradient(to left, #f37a8e, #fdfdf6);
-  border: 1px black solid;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width: 55vw;
-  height: 40vh;
-  margin: 30px;
-  padding: 60px;
-  font-size: 35px;
-}
+
 
 .italic {
   font-style: italic;
@@ -684,7 +661,7 @@ ul {
   background-image: -webkit-gradient(linear, right top, left top, from(#f77b90), to(#fafaf8));
   background-image: linear-gradient(to left, #f77b90, #fafaf8);
   width: 90vw;
-  height: 5vh;
+  height: 9vh;
   margin: 5px;
   padding: 10px;
   text-align: center;
@@ -713,9 +690,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+
 }
 
 @keyframes movimiento {
@@ -776,7 +751,8 @@ h3 {
       grid-template-columns: 30% 30% 30%;
   -ms-grid-rows: 50% 50%;
       grid-template-rows: 50% 50%;
-      grid-template-areas: "blanca negra azul" "roja verde none";
+      grid-template-areas: "blanca negra azul"
+ "roja verde none";
 }
 
 .zapatosDama {

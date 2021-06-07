@@ -12,7 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+
 }
 
 h1 {
@@ -28,18 +28,7 @@ h1 {
     font-size: 70px;
 }
 
-ul {
-    background-image: linear-gradient(to left, rgb(243, 122, 142), rgb(253, 253, 246));
-    border: 1px black solid;
-    display: flex;
-    flex-direction: column;
-    width: 55vw;
-    height: 40vh;
-    margin: 30px;
-    padding: 60px;
-    font-size: 35px;
 
-}
 
 .italic {
     font-style: italic;
